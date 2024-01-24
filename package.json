@@ -1,0 +1,16 @@
+{
+  "name": "express-routing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "justAy",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "pug": "^3.0.2"
+  }
+}
