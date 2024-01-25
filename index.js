@@ -27,7 +27,7 @@ const checkWorkingHours = (req, res, next) => {
     }
   };
 
-// app.use(checkWorkingHours);
+app.use(checkWorkingHours);
 
 app.get('/', (req, res) => res.render('home', { pageTitle: 'Home' }));
 app.get('/services', (req, res) => res.render('ourServices', { pageTitle: 'Our Services' }));
